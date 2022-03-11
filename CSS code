@@ -25,3 +25,20 @@ body {
 .postcard-body {
 	display: flex;
 }
+.body-left,
+body-right {
+	padding: 10px 10px 10px 10px;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+input {
+	border: none;
+	border-bottom: 1px gray solid;
+}
+p {
+	font-size: medium;
+}
+.postcard-footer {
+	text-align: center;
+}
